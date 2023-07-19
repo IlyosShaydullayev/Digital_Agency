@@ -1,5 +1,164 @@
 @media (max-width:428px){
-
+    .katta-div1, .katta-div2{
+        max-width: 1440px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 136px;
+        margin: 0 auto;
+    }
+    .katta-div1, .katta-div2 img{
+        width: 375px;
+        height: 384px;
+    }
+    .katta-div1 img{
+        margin-top: 212px;
+    }
+    .katta-div1 .block{
+        margin-top: -800px;
+    }
+    .katta-div1 .block .title{
+        margin-top: 88px;
+        color: #272D38;
+        text-align: center;
+        width: 340px;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%; /* 32px */
+        text-transform: capitalize;
+    }
+    .katta-div1 .block .body{
+        color: #272D38;
+        text-align: center;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27.5px; /* 196.429% */
+        text-transform: capitalize;
+        margin-top: -24px;
+    }
+    .katta-div1 .block p:last-child{
+        margin-top: 232px;
+        font-size: 23px;
+        font-weight: 900;
+        transform: rotate(90deg);
+    }
+    .katta-div2 .block .title{
+        color: #272D38;
+        text-align: center;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%; /* 32px */
+        text-transform: capitalize;
+        margin-top: 220px;
+    }
+    .katta-div2 .block .body{
+        color: #272D38;
+        text-align: center;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27.5px; /* 196.429% */
+        text-transform: capitalize;
+        margin: -24px auto;
+    }
+    .katta-div2 .block p:last-child{
+        margin-top: 32px;
+        font-size: 23px;
+        font-weight: 900;
+        transform: rotate(90deg);
+    }
+    .katta-div3{
+        margin-top: 136px;
+    }
+    .katta-div3 .header{
+        color: #272D38;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27.5px; /* 171.875% */
+        text-transform: capitalize;
+        text-align: center;
+    }
+    .katta-div3 .next-header{
+        color: #272D38;
+        text-align: center;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%; /* 48px */
+        text-transform: capitalize;
+        text-align: center;
+        width: 380px;
+        height: 65px;
+    }
+    .katta-div3 .div{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .katta-div3 .div .div1{
+        text-align: center;
+        width: 345px;
+        height: 334px;
+        border-radius: 20px;
+        background: #F6F6F6;
+        margin-top: 38px;
+        padding-top: 38px;
+    }
+    .katta-div3 .div .div1 .txt{
+        color: #272D38;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 130%; /* 18.2px */
+        text-transform: capitalize;
+        display: flex;
+        width: 281px;
+        height: 77px;
+        margin: 0 auto;
+    }
+    .katta-div3 .div .div1 p:first-child{
+        color: #272D38;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27.5px; /* 152.778% */
+        text-transform: capitalize;
+    }
+    .katta-div3 .header{
+        color: #272D38;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27.5px; /* 171.875% */
+        text-transform: capitalize;
+        text-align: center;
+    }
+    .katta-div3 .next-header{
+        width: 435.687px;
+        height: 102.347px;
+        color: #272D38;
+        font-family: Inter;
+        margin: 16px auto;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%; /* 48px */
+        text-transform: capitalize;
+    }
+    
 }
 .katta-div1, .katta-div2{
     max-width: 1440px;
@@ -116,3 +275,4 @@
     line-height: 100%; /* 48px */
     text-transform: capitalize;
 }
+
